@@ -16,4 +16,4 @@ Usage
 Acknowledgments
 ===============
 
-This is based on http://github.com/svetlyak40wt/django-ban, which was based on the Justquick's django snippet (http://www.djangosnippets.org/snippets/725/).
+This is based on https://github.com/philipn/django-block-ip.git which is based on http://github.com/svetlyak40wt/django-ban, which was based on the Justquick's django snippet (http://www.djangosnippets.org/snippets/725/).
