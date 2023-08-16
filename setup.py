@@ -35,12 +35,12 @@ def get_package_data(package):
 setup(
     name='django-block-ip',
     version='0.2.0',
-    url='http://github.com/philipn/django-block-ip',
+    url='https://github.com/vinny42/django-block-ip.git',
     license='BSD',
     description='Simple IP and IP-range blocking for Django',
     long_description=open('README.md', 'r').read(),
-    author='Philip Neustrom',
-    author_email='philipn@gmail.com',
+    author='Vincent Elschot',
+    author_email='vinny@yapf.net',
     packages=get_packages('block_ip'),
     package_data=get_package_data('.'),
     install_requires=[
