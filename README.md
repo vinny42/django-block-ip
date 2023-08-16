@@ -7,10 +7,10 @@ Usage
 =====
 
 1. `pip install django-block-ip`
-1. Add `block_ip` to your `INSTALLED_APPS`.
-1. Add `block_ip.middleware.BlockIPMiddleware` to your `MIDDLEWARE_CLASSES`.
-1. Run `syncdb`.
-1. Add one or more entries to the `BlockIP` list in the admin.
+2. Add `block_ip` to your `INSTALLED_APPS`. 
+3. Add `block_ip.middleware.BlockIPMiddleware` to your `MIDDLEWARE_CLASSES`. 
+4. Run `python manage.py migrate`. 
+5. Add one or more entries to the `BlockIP` list in the admin.
   You can just enter a single IP or use a network mask, like this: 213.67.43.0/24
 
 Acknowledgments
