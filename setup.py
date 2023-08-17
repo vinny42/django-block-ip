@@ -33,7 +33,7 @@ def get_package_data(package):
 
 
 setup(
-    name='django-block-ip',
+    name='blockip',
     version='0.2.1',
     url='https://github.com/vinny42/django-block-ip.git',
     license='BSD',
