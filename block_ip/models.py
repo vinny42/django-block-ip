@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 import ipcalc
 
 from django.db import models
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.core.cache import cache
 from django.db.models.signals import post_save, post_delete
 from django.utils.encoding import python_2_unicode_compatible
